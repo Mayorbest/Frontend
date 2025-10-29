@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayor's First game</title>
+    <link rel="stylesheet" href="css/RPS Get.css">
+</head>
+<body>
+    <h2> MayorB Rock, Paper, Scissors Game<hr></h2>
+    <h5 class="header1"></h5>
+<p>Select your move:</p>
+<button onclick="
+playM('rock');
+"><img src="images/rock.png"></button>
+
+<button onclick="  
+playM('papper');
+"><img src="images/papper.png"></button>
+
+<button onclick="  playM('scissors');
+"><img src="images/scissors.png"></button>
+<p class="display"></p>
+<p class="moves"></p>
+<p class="result"></p>
+<button class="reset">RESET SCORE</button>
+<button class="autoplay" onclick="autoP()">Auto Play</button>
+<script src="JS/RPS-Game.js">
+    </script>
+</body>
+</html>

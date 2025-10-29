@@ -1,0 +1,48 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: rgb(220, 128, 236);
+  margin: 0;
+  padding: 40px;
+}
+.container{
+  height:80vh ;
+  width: 100% ;
+  border-radius:15px ;
+  padding:50px ;
+  background-color: goldenrod;
+}
+.ht{
+  color: white;
+}
+.rand {
+  color: green;
+}
+.par {
+  color: gray;
+}
+ .btn{
+    background-color: lightgreen;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+  }
+  .pass1, .pass2 {
+    background-color: blue;
+    border-radius: 6px;
+    height: 60px;
+    width: 100%;
+    margin: 50px 30px;
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+    align-content: center;
+    padding-left: 29px;
+  }
+  .pass{
+      width: 700px;
+      height: 160px;
+      display: flex;
+      margin: auto;
+  }

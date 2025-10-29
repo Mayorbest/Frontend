@@ -1,0 +1,47 @@
+body{
+  background-color: skyblue;
+        }
+  h2{
+    text-align: center;
+    color: black;
+    }
+  p{
+  color: black;
+  }
+  button, img {
+    background-color: transparent;
+    border-radius: 2rem;
+    height: 150px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+
+  }
+.reset {
+  color: white;
+  background-color: red;
+  height: 35px;
+  width: 110px;
+  border-radius: 1rem;
+}
+.moves{
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.move {
+height: 60px;
+width: 60px;
+border-radius: 1rem;
+}
+.autoplay{
+  color: white;
+  background-color: green;
+  height: 35px;
+  width: 100px;
+  border: none;
+  border-radius: 1rem;
+}
+.autoplay:hover {
+  background-color: Yellow;
+  color: black;
+}

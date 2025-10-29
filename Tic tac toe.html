@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mayor's Third game</title>
+  <link rel="stylesheet" href="css/TicTacToe.css">
+</head>
+<body>
+  <h2 class="header1">Mayor's Tic Tac Toe Game<hr></h2>
+  <p class="notice">Notice: Welcome to Mayor's Tic Tac Toe game, note that this game is a multiplayer game; Thus it has to be between you and your friend, the first player move will be 'X' and thhe second player move will be 'O' </p>
+  <div class="container">
+  <div class="gamebox" data-index="0"></div>
+  <div class="gamebox" data-index="1"></div>
+  <div class="gamebox" data-index="2"></div>
+  <div class="gamebox" data-index="3"></div>
+  <div class="gamebox" data-index="4"></div>
+  <div data-index="5" class="gamebox"></div>
+  <div data-index="6" class="gamebox"></div>
+  <div data-index="7" class="gamebox"></div>
+  <div data-index="8" class="gamebox"></div>
+  </div>
+  <p class="status">Player X turn</p>
+   <div class="score">
+    <div class="X-status">Player X scores</div>
+    <div class="O-status">Player O scores</div>
+   </div>
+  <button class="reset">Play Again</button>
+  <button class="scoreR" onclick="
+  scoreO.wins = 0;
+  scoreO.losses = 0;
+  scoreO.draws = 0;
+
+  scoreX.wins = 0;
+  scoreX.losses = 0;
+  scoreX.draws = 0;
+  ">Reset score</button>
+  <script src="JS/TicTacToe.js"></script>
+</body>
+</html>

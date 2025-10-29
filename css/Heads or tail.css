@@ -1,0 +1,33 @@
+body {
+  background-color: #00a0b0;
+}
+div {
+  background-color: #dddddd;
+  border-radius: 2.5rem;
+  border: 2px solid gray;
+  margin: auto;
+  height: 550px;
+  width: 600px;
+  padding: 30px;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+.button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+img {
+border: none;
+height: 200px;
+width: 200px;
+}
+.score {
+  border: 1px;
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border-radius: 1rem;
+}

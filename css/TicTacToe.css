@@ -1,0 +1,60 @@
+.container {
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  height: 350px;
+  width: 420px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.gamebox{
+  height: 100px;
+  width: 120px;
+  border: 1px solid gray;
+  font-size: 95px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 15px;
+  text-align: center;
+}
+.header1 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.notice, .status {
+  margin: 15px;
+  padding: 30px;
+  font: 1.1em sans-serif;
+  font-weight: 800;
+}
+ .score {
+  display: grid;
+  height: 60px;
+  width: 600px;
+  grid-template-columns: repeat(2, 300px);
+ }
+.O-status, .X-status {
+  height: auto;
+  width: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 750;
+}
+.reset{
+  margin-top:60px;
+  margin-left: 15px;
+  background-color: green;
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 1rem;
+  margin-bottom: 50px;
+}
+.scoreR {
+  margin-left: 400px;
+  padding: 10px;
+  border: none;
+  border-radius: 1rem;
+  background-color: red;
+  font-weight: 600;
+}

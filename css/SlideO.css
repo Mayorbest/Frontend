@@ -1,0 +1,78 @@
+.container {
+  height: 580px;
+  width: 2060px;
+  background-color: rgba(red, green, blue, alpha);
+  align-content: space-evenly;
+  align-items: baseline;
+  display: flex;
+  margin-top: 70px;
+}
+.calculus {
+  background-image: url('../images/calculusF.png');
+}
+.coin {
+  background-image: url('../images/coin\ heads.png');
+}
+.scissors{
+  background-image: url('../images/scissors.png');
+}
+.rock{
+  background-image: url('../images/rock.png');
+}
+.car{
+  background-image: url('../images/car.png');
+}
+.scienceF{
+  background-image: url('../images/formulas.png');
+}
+.earth{
+  background-image: url('../images/earthgeo.jfif');
+}
+.calculus, .scissors, .rock, .car, .scienceF, .earth, .coin{
+height: 390px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 2rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: gray;
+  color: black;
+}
+.content {
+  margin-top: 200px;
+  opacity: 0;
+  font-size: 22px;
+  transition: opacity, 0.15;
+}
+.content:hover {
+  opacity: 1;
+}
+.calculus:hover{
+  height: 450px;
+  width: 400px;
+}
+.scissors:hover{
+  height: 450px;
+  width: 400px;
+}
+.rock:hover{
+  height: 450px;
+  width: 400px;
+}
+.car:hover{
+  height: 450px;
+  width: 400px;
+}
+.scienceF:hover{
+  height: 450px;
+  width: 400px;
+}
+.earth:hover{
+  height: 450px;
+  width: 400px;
+}
+.coin:hover{
+  height: 450px;
+  width: 400px;
+}

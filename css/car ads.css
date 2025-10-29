@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  height: 600px;
+  width: 1200px;
+  margin: auto;
+}
+.productImg {
+  background-color: transparent;
+  height: 500px;
+  width: 550px;
+  padding-top: 20px;
+}
+.content {
+  width: 600px;
+  height: 600px;
+}
+h2{
+  text-align: center;
+  font-family: sans-serif;
+
+}
+.icons {
+  height: 30px;
+  width: 25px;
+  padding-right: 9px;
+}
+.head_para {
+  padding-bottom: 50px;
+  font-family: sans-serif;
+}
+.detail {
+  height: 70px;
+  width: 350px;
+  display: flex;
+  padding: 15px;
+}
+.bodyS{
+  height: 300px;
+  width: 220px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+.p_title {
+  font-family: sans-serif;
+}

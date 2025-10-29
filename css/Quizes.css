@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+}
+.container {
+  height: 500px;
+  width: 720px;
+  background-color: #609090;
+  margin: auto;
+}
+.quiz_container{
+  height: 350px;
+  width: 500px;
+  margin: auto;
+  visibility: visible;
+  padding: 15px;
+}
+.p, .header1, .score, .answers, .question {
+  font-family: sans-serif;
+  padding: 20px;
+}
+.prev-button {
+  margin-right: 200px;
+}
